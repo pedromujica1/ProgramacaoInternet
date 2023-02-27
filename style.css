@@ -19,8 +19,28 @@ a {
     text-decoration: none;
     color:#2F58CD;
 }
-h1 {
+/*h1 {
     text-decoration: burlywood;
     color:crimson;
-    font-size: 4rem; 
+    font-size: 3rem; 
+}*/
+
+button {
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    background: #1d61dd;
+    color: white;
+    font-family: 'Montserrat' sans-serif;
+    
+}
+header {
+    background: 
+    no-repeat center/cover url(assets/e.jpg);
+    height: calc(120vh - 100px);
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 90px;
 }
