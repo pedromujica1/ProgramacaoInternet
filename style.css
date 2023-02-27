@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+/*Comentário */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+ul {
+    list-style-type: disc;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color:#2F58CD;
+}
+h1 {
+    text-decoration: burlywood;
+    color:crimson;
+    font-size: 4rem; 
+}
