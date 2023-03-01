@@ -44,3 +44,22 @@ header nav {
     justify-content: space-between;
     margin: auto 90px;
 }
+header nav p {
+    font-weight: bold;
+}
+
+header nav ul{
+    display: flex;
+}
+header nav ul li {
+    margin: 0 15px;
+}
+.header-content {
+    max-width: 400px;
+    margin: 150px auto;
+    text-align: center;
+}
+.header-content h1{
+    margin-bottom: 10px;
+    font-size: 4rem;
+}
