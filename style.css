@@ -12,7 +12,7 @@ body {
 }
 
 ul {
-    list-style-type: disc;
+    list-style-type: none;
     font-weight: bold;
 }
 a {
@@ -63,3 +63,33 @@ header nav ul li {
     margin-bottom: 10px;
     font-size: 4rem;
 }
+.pacotes{
+    background: #3610c0;
+    padding: 15px;
+}
+.pacotes .pacote-cards{
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pacotes .card{
+    width: 250px;
+    height: 200px;
+    background: white;
+    margin: 25px;
+    position: relative;
+}
+.pacotes .pacotes-title{
+    width:100%;
+    text-align: center;
+    margin: 25px 0;
+}
+.pacotes .card-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+    object-fit: cover;
+}
+
