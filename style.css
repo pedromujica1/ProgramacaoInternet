@@ -80,6 +80,7 @@ header nav ul li {
     background: white;
     margin: 25px;
     position: relative;
+    border-radius: 24px 0;
 }
 .pacotes .pacotes-title{
     width:100%;
